@@ -32,7 +32,7 @@ p {
 }
 
 .published {
-
+    margin-top: 4px;
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -73,7 +73,7 @@ p {
 
 .subtitle {
     margin-top: 4px;
-    line-height: 18px;
+    line-height: 22px;
     color: gray;
     padding-right: 50px;
     font-family: "Figtree", sans-serif;
@@ -90,6 +90,7 @@ p {
 }
 
 .learning {
+    margin-top: 1px;
     display: flex;
     justify-content: center;
     align-items: center;

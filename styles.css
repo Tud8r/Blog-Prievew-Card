@@ -42,13 +42,24 @@ p {
 }
 
 .title {
+    cursor: pointer;
     padding-top: 10px;
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-size: 20px;
     font-style: normal;
+    /* PREVENT SELECT */
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
 
+.title:hover {
+    color: hsl(47, 88%, 63%);
 }
 
 .footer {
